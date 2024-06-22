@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.Hero{
+    width: auto;
+    background: url(https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+.navbar{
+    width: fit-content;
+    margin: auto;
+    padding-left: 60%;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+ul{
+    margin-top: auto;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(10, 252, 252);
+    margin-top: 60px;
+}
+ul li a:hover{
+    color: rgb(252, 251, 250);
+    font-style: underline;
+}
+.details{
+    margin-left: 2%;
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.details h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 24px;
+    width: 40%;
+}
+.details span{
+    color: rgb(10, 252, 252);
+}
+.details span:hover{
+    color:rgb(236, 240, 7);
+}
+.details a{
+    text-decoration: none;
+    border-radius: 10px; 
+    background: rgb(10, 252, 252);
+    margin: 26px 0;
+    padding: 0px 5px;
+    box-shadow: inset;
+    border-radius: 5px;
+    color: rgb(8, 8, 8);
+    display: inline-block;
+    transition: 2s ease;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+.details a:hover
+{ 
+    background: rgb(236, 240, 7);
+}
