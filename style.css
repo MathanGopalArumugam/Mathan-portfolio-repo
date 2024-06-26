@@ -56,9 +56,6 @@ html{
     letter-spacing: 5px;
     color: white;
 }
-#Home span{
-    color: rgb(78, 193, 247);
-}
 .main{
     display: flex;
     flex-direction: column;
@@ -75,15 +72,16 @@ html{
     text-align: center;
     margin: 40px 0px;
 }
-.button{
-    padding: 10px 30px;
-    background-color: transparent;
+.main a{
+    padding: 10px 20px;
+    background: transparent;
     border: 1px solid white;
     color: white;
     outline: none;
     transition: .6s ease;
+    text-decoration: none;
 }
-.button:hover{
+.main a:hover{
     background-color: white;
     color: black;
     box-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white ;
@@ -209,6 +207,7 @@ h1.headings{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: black;
 }
 .row{
     display: flex;
@@ -249,7 +248,7 @@ h1.headings{
 }
 .row1{
     display: flex;
-    padding-left: 130px;
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -274,4 +273,50 @@ h1.headings{
     color: white;
     border: none;
     box-shadow: 0 0 15px rgb(233, 250, 4);
+}
+
+/*Contact*/
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.heading2{
+    color:blue;
+    align-items: center;
+    justify-content: center;
+    padding-left: 470px;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(4, 119, 250), 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .6s;
+}
+.box2:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 15px rgb(4, 119, 250);
+}
+.box2 a{
+    text-decoration: none;
 }
